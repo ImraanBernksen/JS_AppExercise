@@ -19,7 +19,7 @@ btnAdd.addEventListener('click', () =>{
 let btnAdd2 = document.getElementById('button2');
 let input2 = document.querySelector('input');
 
-btnAdd.addEventListener('click', () =>{
+btnAdd2.addEventListener('click', () =>{
     users.push(input2.value);
     // input2.value = '';
     addUsers();
